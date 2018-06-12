@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Field from './field';
+import ClassComponent from './classComponent';
 
 
 
 ReactDOM.render(
-    <Field inicialValue='teste' />
+    <ClassComponent label='Count' inicialValue={10} />
 , document.getElementById('app'));
 
